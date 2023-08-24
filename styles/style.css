@@ -1,3 +1,5 @@
+@import url(../styles/fonts/fonts.css);
+
 .page {
   min-width: 320px;
   max-width: 1440px;
@@ -10,6 +12,20 @@
 }
 
 .header__info {
+}
+
+.header__title {
+  position: relative;
+  max-width: 420px;
+  color: #21201f;
+  font-family: "YS Text";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; /* 72px */
+  letter-spacing: -1.44px;
+  z-index: 2;
+  margin: 78px 0px 0px 0px;
 }
 
 .header::after {
