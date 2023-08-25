@@ -97,7 +97,7 @@
   height: 65px;
   color: #21201f;
   text-align: right;
-  font-family: YS Text;
+  font-family: "YS Text", Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -147,4 +147,42 @@
   height: 195.344px;
   transform: rotate(-7.8deg);
   background-image: url(../images/Rectangle.png);
+}
+
+.bonus {
+  padding: 0px 304px 0px 262px;
+  margin: 128px;
+}
+
+.bonus__title {
+  margin: 0px 0px 48px 0px;
+  color: #21201f;
+  font-family: "YS Text", Arial, sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -1.12px;
+}
+
+.bonus__list {
+  all: unset;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 112px;
+  row-gap: 61px;
+}
+
+.bonus__list-block {
+  all: unset;
+}
+
+.bonus__description {
+  color: #21201f;
+  font-family: "YS Text", Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
 }
