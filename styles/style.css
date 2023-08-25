@@ -4,7 +4,7 @@
   min-width: 320px;
   max-width: 1440px;
   margin: 0 auto;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .header {
@@ -12,20 +12,96 @@
 }
 
 .header__info {
+  padding-bottom: 128px;
 }
 
 .header__title {
   position: relative;
   max-width: 420px;
   color: #21201f;
-  font-family: "YS Text";
+  font-family: "YS Text", Arial, sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  line-height: 100%; /* 72px */
+  line-height: 100%;
   letter-spacing: -1.44px;
   z-index: 2;
-  margin: 78px 0px 0px 0px;
+  margin: 78px 0px 48px 0px;
+}
+
+.header__description {
+  max-width: 465px;
+  color: #21201f;
+  font-family: "YS Text", Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin: 0px 0px 44px 0px;
+}
+
+.header__price-last {
+  width: 79px;
+  min-height: 33px;
+  position: relative;
+  z-index: 1;
+  border-radius: 500px;
+  background: radial-gradient(
+    141.42% 141.42% at 100% -0%,
+    #e0b8ff 0%,
+    #b6b9ff 100%
+  );
+  padding: 7px 0px 0px 20px;
+  display: inline-block;
+  color: #2e2c21;
+  font-family: "YS Text", Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.header__price {
+  display: inline-block;
+  width: 70px;
+  height: 33px;
+  color: #808080;
+  font-family: "YS Text", Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-decoration: line-through;
+  padding: 10px 0px 0px 85px;
+  position: relative;
+  top: -5px;
+  left: -65px;
+  border-radius: 500px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.63) 0%,
+      rgba(255, 255, 255, 0.63) 100%
+    ),
+    radial-gradient(141.42% 141.42% at 100% -0%, #e0b8ff 0%, #b6b9ff 100%);
+}
+
+.header__button {
+  all: initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 36px;
+  background: #ffde40;
+  box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+  min-width: 318px;
+  height: 65px;
+  color: #21201f;
+  text-align: right;
+  font-family: YS Text;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
 }
 
 .header::after {
@@ -60,4 +136,15 @@
   width: 805px;
   height: 645px;
   transform: rotate(-8.008deg);
+}
+
+.header__community {
+  position: absolute;
+  z-index: 2;
+  top: 403px;
+  right: 435px;
+  width: 195.344px;
+  height: 195.344px;
+  transform: rotate(-7.8deg);
+  background-image: url(../images/Rectangle.png);
 }
