@@ -271,3 +271,20 @@
   height: 456px;
   border-radius: 95px;
 }
+
+.pay {
+  padding-left: 167px;
+}
+
+.pay__list {
+  all: unset;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(2, min-content);
+}
+
+.pay__foto{
+  width: 423px;
+  height: 423px;
+  object-fit: cover;
+}
