@@ -190,6 +190,7 @@
 .exclusive {
   padding-left: 262px;
   margin-bottom: 105px;
+  box-sizing: border-box;
 }
 
 .exclusive__title {
@@ -214,10 +215,44 @@
 
 .exclusive__block {
   all: unset;
+  position: relative;
 }
 
 .exclusive__block_place_left {
   padding-top: 50px;
+}
+
+.exclusive__savagery-top {
+  display: block;
+  background-image: url(../images/cfee0016.svg);
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: -105px;
+  left: 230px;
+}
+
+.exclusive__savagery-botton {
+  display: block;
+  background-image: url(../images/smkt0010\ 6.svg);
+  width: 420px;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 650px;
+  left: 100px;
+}
+
+.exclusive__savagery-left {
+  display: block;
+  background-image: url(../images/smkt0008\ 2.svg);
+  width: 420px;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 160px;
+  left: -250px;
 }
 
 .exclusive__description {
